@@ -1,4 +1,4 @@
-import { addSchoolService, getSchools } from '../service/schoolService.js';
+import { addSchoolService, getSchools } from '../services/schoolServices.js';
 export async function addSchool(req, res) {
   const { name, address, lat, lng } = req.body;
   const latitude = Number(lat), longitude = Number(lng);
