@@ -105,7 +105,7 @@ npm start
 ## 🌐 Live API
 
 ```
-<deployed-url>
+https://school-api-assignment-m938.onrender.com
 ```
 
 ---
@@ -113,7 +113,7 @@ npm start
 ## 🧪 Postman Collection
 
 ```
-<postman-link>
+https://raw.githubusercontent.com/Er-SarthakBansal/school-API-assignment/main/postman_collection.json
 ```
 
 ---

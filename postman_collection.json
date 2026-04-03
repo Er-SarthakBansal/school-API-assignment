@@ -1,0 +1,77 @@
+{
+  "info": {
+    "_postman_id": "ec7b1dff-3d55-4e4c-8acb-de4148238b65",
+    "name": "School API Assignment",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48869609",
+    "_collection_link": "https://go.postman.co/collection/48869609-ec7b1dff-3d55-4e4c-8acb-de4148238b65?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"D.S. Public School\",\r\n  \"address\": \"bombay\",\r\n  \"lat\": 30.6139,\r\n  \"lng\": 75.2090\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "school-api-assignment-production-0ef7.up.railway.app/addSchool",
+          "host": [
+            "school-api-assignment-production-0ef7",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "addSchool"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "List Schools",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "school-api-assignment-production-0ef7.up.railway.app/listSchools?lat=28.6139&lng=77.2090",
+          "host": [
+            "school-api-assignment-production-0ef7",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "listSchools"
+          ],
+          "query": [
+            {
+              "key": "lat",
+              "value": "28.6139"
+            },
+            {
+              "key": "lng",
+              "value": "77.2090"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
